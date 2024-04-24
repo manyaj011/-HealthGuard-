@@ -141,5 +141,20 @@ Tensor Flow/Keras
 PyTorch
  
 
+### dataset
+
+disease , drug and doctor dataset is already provided  
+for images, dataset used HAM10000
+
+DGX Workstation is used
+
+Specifications : 
+
+•	Processor : 20-core intel Xeon e5-2698 v4 2.2 GHz  
+•	System Memory : 256 GB DDR4  
+•	GPU : 4 x GPUs (Tesla V100 SXM2)  
+•	GPU Memory : 128 GB (8X32) total system Cuda cores : 5000/GPU Tensor cores : 600/GPU  
+•	Storage : 4X 1.92 TB SSD RAID 0  
+
 
 
