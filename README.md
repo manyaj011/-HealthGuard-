@@ -1,10 +1,56 @@
 # -HealthGuard-
 **Your AI-Powered Health Companion for Precision Care"**
+
+
 Flow Chart that explains the whole project
+
+
 ![WhatsApp Image 2024-04-24 at 11 23 12 PM](https://github.com/manyaj011/-HealthGuard-/assets/110671189/d38b1cab-fcc6-4368-ac89-29eac194758e)
 ![WhatsApp Image 2024-04-24 at 11 36 42 PM](https://github.com/manyaj011/-HealthGuard-/assets/110671189/ff35aa2e-4eea-4621-b49e-d7f70355e306)
 ![WhatsApp Image 2024-04-24 at 11 27 07 PM](https://github.com/manyaj011/-HealthGuard-/assets/110671189/0d21bad5-457e-47ef-9630-6f55ac8063fb)
 
+
+
+## To Run the project, libraries used
+```bash
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt 
+import seaborn as sns
+%matplotlib inline 
+```
+
+## For Grid search and random search techniques used for hyperparameter tuning 
+```bash
+from sklearn.model_selection import RandomizedSearchCV, GridSearchCV
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from xgboost import XGBClassifier
+from scipy.stats import randint
+```
+
+# For MultiClassifier Approach and Multiple Binary Approach
+
+```bash
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+import os
+import itertools
+import cv2
+from glob import glob
+from PIL import Image
+from sklearn.model_selection import train_test_split
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPool2D
+from tensorflow.keras import backend as K
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
+```
 **IF USER ENTERS SYMPTOMS-**
 1.Decision Tree
 2.Random Forest Classification
@@ -55,10 +101,34 @@ CNN IS APPLIED
 
 1.Contribution to the world by giving information about identfiable disease
 
+demo-
+
+<img width="305" alt="image" src="https://github.com/manyaj011/-HealthGuard-/assets/110671189/5f06891e-15aa-4a65-9e67-d59523f33ff8">
+
+
+
 2.Real Time Mapping of the idetified disease
 
+demo od Real Time Mapping-
+
+<img width="305" alt="image" src="https://github.com/manyaj011/-HealthGuard-/assets/110671189/985b7f0e-8b60-4284-befc-8eb7de81c890">
 
 
+## Technologies Used
+### Machine-Learning Models used
+Symptom-Based Disease Prediction: Decision Tree Classifier, Random Forest, and XGBoost.
+Image-Based Disease Identification: Convolutional Neural Networks (CNN) for multi-class and multiple binary classifications.
+Large Language Models (LLMs): For ChatBot 
+
+### DSA Algorithms Used
+Dijiktra's Algorithm
+Hash Table(Priority Queue)
+
+### Programming Technologies
+Python
+Tensor Flow/Keras
+PyTorch
+ 
 
 
 
