@@ -29,7 +29,7 @@ from xgboost import XGBClassifier
 from scipy.stats import randint
 ```
 
-# For MultiClassifier Approach and Multiple Binary Approach
+## For MultiClassifier Approach and Multiple Binary Approach
 
 ```bash
 import numpy as np
