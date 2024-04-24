@@ -115,18 +115,29 @@ demo od Real Time Mapping-
 
 
 ## Technologies Used
+
 ### Machine-Learning Models used
+
 Symptom-Based Disease Prediction: Decision Tree Classifier, Random Forest, and XGBoost.
+
 Image-Based Disease Identification: Convolutional Neural Networks (CNN) for multi-class and multiple binary classifications.
+
 Large Language Models (LLMs): For ChatBot 
 
 ### DSA Algorithms Used
+
 Dijiktra's Algorithm
+
 Hash Table(Priority Queue)
 
 ### Programming Technologies
+
 Python
+
+
 Tensor Flow/Keras
+
+
 PyTorch
  
 
