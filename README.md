@@ -109,7 +109,7 @@ demo-
 
 2.Real Time Mapping of the idetified disease
 
-demo od Real Time Mapping-
+demo of Real Time Mapping-
 
 <img width="305" alt="image" src="https://github.com/manyaj011/-HealthGuard-/assets/110671189/985b7f0e-8b60-4284-befc-8eb7de81c890">
 
